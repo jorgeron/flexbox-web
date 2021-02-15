@@ -115,3 +115,32 @@ footer {
     width: 300px;
 }
 /* --/FOOTER-- */
+
+@media all and (max-width: 800px) {
+    section {
+        flex-direction: column;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+    }
+
+    aside {
+        display: flex;
+        justify-content: center;
+        /* flex-direction: row; */
+    }
+}
+
+@media all and (max-width: 600px) {
+    .post {
+        flex: 1 1 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    aside {
+        flex-direction: column;
+    }
+}
