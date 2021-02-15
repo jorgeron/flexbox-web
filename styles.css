@@ -1,0 +1,83 @@
+:root {
+    --verde: #61d4b3;
+    --rosa: #fd2eb3;
+    --amarillo: #fdd365;
+    --naranja: #fb8d62;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    background: white;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+}
+
+nav {
+    background-color: var(--verde);
+}
+
+.logo, .menu, .social {
+    background-color: var(--rosa);
+}
+
+/* --/HEADER--- */
+
+/* MAIN */
+main {
+    background-color: black;
+}
+
+.texto-principal {
+    background-color: var(--amarillo);
+}
+
+.texto-principal h1 {
+    background-color: var(--naranja);
+}
+
+/* --/MAIN--- */
+
+/* SECTION */
+section {
+    background-color: black;
+}
+
+#articulos {
+    background-color: var(--rosa);
+}
+
+.post {
+    background-color: var(--amarillo);
+}
+
+.paginacion {
+    background-color: var(--verde);
+}
+
+aside {
+    background-color: var(--naranja);
+}
+
+.publicidad {
+    background-color: var(--verde);
+}
+
+/* --/SECTION--- */
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+.pie {
+    background-color: var(--amarillo);
+}
+/* --/FOOTER-- */
